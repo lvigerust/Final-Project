@@ -17,8 +17,6 @@ img {
   border: 0;
   width: 100%;
   max-width: 100%;
-  vertical-align: middle;
-  display: inline-block;
 }
 
 h1 {
@@ -94,6 +92,12 @@ section {
 .section__button :focus {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
+}
+
+.section__img {
+  min-width: 50%;
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 60%;
 }
 
 .section__benefits {
@@ -363,7 +367,7 @@ header {
 .custom-shape-divider-bottom-1605730808,
 .custom-shape-divider-bottom-1605731701 {
   position: absolute;
-  bottom: -2px;
+  bottom: -3px;
   left: 0;
   width: 100%;
   overflow: hidden;
@@ -399,7 +403,7 @@ header {
 
 .custom-shape-divider-top-1605733026 {
   position: absolute;
-  top: -2px;
+  top: -3px;
   left: 0;
   width: 100%;
   overflow: hidden;

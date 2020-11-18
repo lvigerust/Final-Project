@@ -16,8 +16,6 @@ img {
   border: 0;
   width: 100%;
   max-width: 100%;
-  vertical-align: middle;
-  display: inline-block;
 }
 
 h1 {
@@ -94,6 +92,10 @@ section {
       //opacity: 0.75;
       transform: scale(1.05);
     }
+  }
+  &__img {
+    min-width: 50%;
+    flex-basis: 60%;
   }
 }
 
@@ -200,7 +202,7 @@ section {
 .custom-shape-divider-bottom-1605730808,
 .custom-shape-divider-bottom-1605731701 {
   position: absolute;
-  bottom: -2px;
+  bottom: -3px;
   left: 0;
   width: 100%;
   overflow: hidden;
@@ -233,7 +235,7 @@ section {
 
 .custom-shape-divider-top-1605733026 {
   position: absolute;
-  top: -2px;
+  top: -3px;
   left: 0;
   width: 100%;
   overflow: hidden;

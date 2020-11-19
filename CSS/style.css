@@ -120,7 +120,7 @@ section {
 .button--1 :focus {
   border: 1.5px solid #fca311;
   background-color: #fca311;
-  color: #14213d;
+  color: #005c7a;
 }
 
 .button--2 {
@@ -133,20 +133,20 @@ section {
 .button--2 :focus {
   border: 1.5px solid red;
   background-color: red;
-  color: black;
+  color: #80ced7;
 }
 
 .button--3 {
   background-color: transparent;
-  color: red;
-  border: 1.5px solid red;
+  color: #005c7a;
+  border: 1.5px solid #005c7a;
 }
 
 .button--3:hover,
 .button--3 :focus {
-  border: 1.5px solid red;
-  background-color: red;
-  color: black;
+  border: 1.5px solid #005c7a;
+  background-color: #005c7a;
+  color: #ccdbdc;
 }
 
 .columns {

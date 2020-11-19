@@ -160,8 +160,6 @@ section {
 }
 
 .column {
-  width: 100%;
-
   &--text {
     max-width: 470px;
   }
@@ -179,6 +177,9 @@ section {
     flex-direction: row;
     &--inverted {
       flex-direction: row-reverse;
+    }
+    .column {
+      width: 100%;
     }
     .column--img {
       width: 40%;

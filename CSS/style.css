@@ -166,10 +166,6 @@ section {
   padding-bottom: 3em;
 }
 
-.column {
-  width: 100%;
-}
-
 .column--text {
   max-width: 470px;
 }
@@ -195,6 +191,9 @@ section {
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
+  }
+  .columns .column {
+    width: 100%;
   }
   .columns .column--img {
     width: 40%;

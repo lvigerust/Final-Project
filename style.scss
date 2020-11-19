@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+@import "./CSS/variables";
+
 body {
   margin: 0;
   padding: 0;
@@ -33,24 +35,23 @@ h1 {
 // SECTION STYLING
 
 section {
-  padding: 2em;
+  padding: 5em 0;
   position: relative;
 }
 
 .hero {
-  padding-top: 3em;
-  background-color: #fefae0;
-  color: #000;
+  background-color: $heroColor;
+  color: $heroTextColor;
 }
 
 .mission {
-  background-color: #14213d;
-  color: #fff;
+  background-color: $missionColor;
+  color: $missionTextColor;
 }
 
 .mission2 {
-  background-color: #fca311;
-  color: #000;
+  background-color: $mission2Color;
+  color: $mission2TextColor;
 }
 
 // SECTION TYPOGRAPHY STYLING
@@ -79,9 +80,9 @@ section {
     cursor: pointer;
     text-decoration: none;
     text-transform: uppercase;
-    color: #fff;
+    color: #000;
     font-weight: 900;
-    background-color: #00b4d8;
+    background-color: #ddd;
     padding: 1.5em 3em;
     border: 0;
     border-radius: 5px;
@@ -94,9 +95,7 @@ section {
     }
   }
   &__img {
-    min-width: 50%;
     width: 60%;
-    flex-basis: 60%;
   }
 }
 
@@ -118,32 +117,35 @@ section {
 .button {
   &--1 {
     background-color: transparent;
-    color: black;
-    border: 1.5px solid black;
+    color: $heroButtonColor;
+    border: 1.5px solid $heroButtonColor;
     &:hover,
     :focus {
-      background-color: black;
-      color: #fff;
+      border: 1.5px solid $heroButtonFillColor;
+      background-color: $heroButtonFillColor;
+      color: $heroButtonTextColor;
     }
   }
   &--2 {
     background-color: transparent;
-    color: #00b4d8;
-    border: 1.5px solid #00b4d8;
+    color: $missionButtonColor;
+    border: 1.5px solid $missionButtonColor;
     &:hover,
     :focus {
-      background-color: #00b4d8;
-      color: #000;
+      border: 1.5px solid $missionButtonFillColor;
+      background-color: $missionButtonFillColor;
+      color: $missionButtonTextColor;
     }
   }
   &--3 {
     background-color: transparent;
-    color: #14213d;
-    border: 1.5px solid #14213d;
+    color: $mission2ButtonColor;
+    border: 1.5px solid $mission2ButtonColor;
     &:hover,
     :focus {
-      background-color: #14213d;
-      color: #fff;
+      border: 1.5px solid $mission2ButtonFillColor;
+      background-color: $mission2ButtonFillColor;
+      color: $mission2ButtonTextColor;
     }
   }
 }
@@ -194,7 +196,22 @@ section {
 
 @media (max-width: 990px) {
   .container {
-    width: 100%;
+    width: 85%;
+  }
+  .section__img {
+    width: 60%;
+    margin-bottom: 1.5em;
+  }
+}
+
+// MEDIA QUERIES MOBILE
+
+@media (max-width: 450px) {
+  section {
+    padding: 3em 0;
+  }
+  .section__img {
+    width: 80%;
   }
 }
 
@@ -203,7 +220,7 @@ section {
 .custom-shape-divider-bottom-1605730808,
 .custom-shape-divider-bottom-1605731701 {
   position: absolute;
-  bottom: -3px;
+  bottom: -1px;
   left: 0;
   width: 100%;
   overflow: hidden;
@@ -215,23 +232,23 @@ section {
 .custom-shape-divider-bottom-1605731701 svg {
   position: relative;
   display: block;
-  width: calc(151% + 1.3px);
+  width: calc(150% + 1.3px);
   height: 60px;
 }
 
 .custom-shape-divider-bottom-1605731701 {
   transform: rotateX(180deg);
   & svg {
-    width: calc(114% + 1.3px);
+    width: calc(150% + 1.3px);
   }
 }
 
 .custom-shape-divider-bottom-1605730808 .shape-fill {
-  fill: #14213d;
+  fill: $missionColor;
 }
 
 .custom-shape-divider-bottom-1605731701 .shape-fill {
-  fill: #fca311;
+  fill: $mission2Color;
 }
 
 .custom-shape-divider-top-1605733026 {
@@ -252,5 +269,5 @@ section {
 }
 
 .custom-shape-divider-top-1605733026 .shape-fill {
-  fill: #2a9d8f;
+  fill: $headerColor;
 }

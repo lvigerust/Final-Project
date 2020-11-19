@@ -212,17 +212,15 @@ section {
     width: 70%;
   }
   .section__img {
-    width: 40%;
+    width: 60%;
+    height: 60%;
     margin-bottom: 1.5em;
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 470px) {
   section {
     padding: 3em 0;
-  }
-  .section__img {
-    width: 40%;
   }
 }
 

@@ -105,6 +105,18 @@ section {
       align-self: center;
 }
 
+.section__img.hero {
+  border: 0;
+  border-radius: 0;
+  width: 100%;
+}
+
+.section__img.data {
+  border: 0;
+  border-radius: 0;
+  width: 100%;
+}
+
 .section__benefits {
   padding: 0;
   list-style: none;

@@ -102,6 +102,18 @@ section {
     border-right: 7.5px solid black;
     border-radius: 17.5px;
     align-self: center;
+
+    &.hero {
+      border: 0;
+      border-radius: 0;
+      width: 100%;
+    }
+
+    &.data {
+      border: 0;
+      border-radius: 0;
+      width: 100%;
+    }
   }
 }
 

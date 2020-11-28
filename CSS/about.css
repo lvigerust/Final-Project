@@ -36,20 +36,44 @@ section {
 }
 
 .hero {
-  background-color: #ccdbdc;
+  background-color: #fff;
   color: #003249;
 }
 
 .mission {
-  background-color: #fff;
-  color: #003249;
+  background-color: #003249;
+  color: #fff;
+  padding: 5em 0 5em 0;
+  text-align: center;
 }
 
 .mission2 {
   background-color: rgb(118, 216, 141);
   color: #003249;
+  padding: 4em 0 0 0;
 }
 
+.footer {
+    background-color: #fff;
+    color: #003249;
+    padding: 2em 0 2em 0;
+    text-align: center;
+}
+
+.container__threecol {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+  
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.col {
+    width: 100%;
+}
 .section__description {
   font-size: 0.8rem;
   text-transform: uppercase;
@@ -380,7 +404,7 @@ header {
 }
 
 .custom-shape-divider-bottom-1605730808 .shape-fill {
-  fill: #fff;
+  fill: #003249;
 }
 
 .custom-shape-divider-bottom-1605731701 .shape-fill {

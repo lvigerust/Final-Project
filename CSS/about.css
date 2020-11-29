@@ -50,13 +50,13 @@ section {
 .mission2 {
   background-color: rgb(118, 216, 141);
   color: #003249;
-  padding: 4em 0 0 0;
+  padding: 4em 0 2em 0;
 }
 
 .footer {
   background-color: #fff;
   color: #003249;
-  padding: 2em 0 2em 0;
+  padding: 1em 0 1em 0;
   text-align: center;
 }
 
@@ -79,6 +79,29 @@ section {
 
 .col {
   width: 100%;
+}
+
+.col__footer{
+    width: 100%;
+    line-height: 10px;
+}
+
+.col__footer p{
+    font-size: 15px;
+}
+
+.col__footer h5{
+    font-size: 20px;
+}
+
+.footer__threecol{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer-mobile-row{
+    display: flex;
+    justify-content: space-between;
 }
 
 .section__description {

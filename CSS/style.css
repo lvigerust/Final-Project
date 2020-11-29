@@ -108,13 +108,17 @@ section {
 .section__img.hero {
   border: 0;
   border-radius: 0;
-  width: 100%;
+  width: 60%;
 }
 
 .section__img.data {
   border: 0;
   border-radius: 0;
   width: 100%;
+}
+
+.section__img--single {
+  width: 40%;
 }
 
 .section__benefits {
@@ -216,14 +220,18 @@ section {
     width: 100%;
   }
   .columns .column--img {
-    width: 40%;
+    width: 60%;
+  }
+  .columns .column--img--inverted {
+    width: 60%;
   }
   .columns .column--text {
     margin-right: 2em;
   }
   .columns .column--text--inverted {
     margin: 0;
-    margin-left: 2em;
+    margin-left: 3em;
+    width: 50%;
   }
 }
 
@@ -232,8 +240,6 @@ section {
     width: 70%;
   }
   .section__img {
-    width: 60%;
-    height: 60%;
     margin-bottom: 1.5em;
   }
 }

@@ -13,12 +13,6 @@ body {
   line-height: 1.6;
 }
 
-img {
-  border: 0;
-  width: 100%;
-  max-width: 100%;
-}
-
 h1 {
   font-size: 3rem;
 }
@@ -42,15 +36,14 @@ section {
 /*Contact form*/
 .contactform{
     margin-top: 2em;
-    background: #000000;
     -webkit-background-clip: text;
     font-style: normal;
     text-align: center;
     height: auto;
-    width: 100%;
+    font-size: 18px;
 }
 #email{
-    width: 50%;
+    width: 60%;
     height: 2.3vw;
     border-radius: 5px/5px;
     font-weight: 600;
@@ -61,7 +54,7 @@ section {
 
 }
 #name{
-    width: 50%;
+    width: 60%;
     height: 2.3vw;
     font-weight: 600;
     border-radius: 5px/5px;
@@ -71,7 +64,7 @@ section {
     background-color: rgba(255, 255, 255, 0.879);
 }
 #subject{
-    width: 50%;
+    width: 60%;
     height: 2.3vw;
     font-weight: 600;
     border-radius: 5px/5px;
@@ -81,7 +74,7 @@ section {
     background-color: rgba(255, 255, 255, 0.879);
 }
 #enquiry{
-    width: 50%;
+    width: 60%;
     height: 10vw;
     font-weight: 600;
     border-radius: 5px/5px;
@@ -95,13 +88,13 @@ section {
     width: 20%;
     height: auto;
     font-weight: 300;
-    font-size: 1.75vw;
+    font-size: 20px;
     border-radius: 5px/5px;
     border: 1px solid #003249;
     padding: 0.4%;
-    letter-spacing: 2px;
-    background-color: rgba(255, 255, 255, 0.879);
-    color: #003249;
+    letter-spacing: 1px;
+    background-color :#003249;
+    color: rgba(255, 255, 255, 0.879);
 }
 .contentsection #more{
     -webkit-background-clip: text;
@@ -114,23 +107,6 @@ section {
   color: #003249;
   padding: 1em 0 1em 0;
   text-align: center;
-}
-
-.container__threecol {
-  width: 80%;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.row {
-  display: flex;
-  justify-content: space-between;
-}
-
-@media (max-width: 990px) {
-  .mobile-row {
-    flex-direction: column;
-  }
 }
 
 .col {
@@ -211,8 +187,8 @@ section {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: reverse;
-  -ms-flex-direction: column-reverse;
-  flex-direction: column-reverse;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
@@ -226,15 +202,9 @@ section {
   max-width: 500px;
 }
 
-.column--img {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+.column--form{
+    max-width: 500px;
 }
-
 @media (min-width: 990px) {
   .columns {
     -webkit-box-orient: horizontal;
@@ -252,7 +222,7 @@ section {
     width: 100%;
   }
   .columns .column--form {
-    width: 85%;
+    width: 70%;
   }
   .columns .column--text {
     margin-right: 2em;
@@ -275,6 +245,33 @@ section {
     height: 60%;
     margin-bottom: 1.5em;
   }
+  #name{
+    width: 50vw;
+    height: 5vh;
+}
+#email{
+    width: 50vw;
+    height: 5vh;
+}
+#subject{
+    width: 50vw;
+    height: 5vh;
+}
+#enquiry{
+    width: 50vw;
+    height: 20vh;
+}
+#send{
+    width: 50vw;
+    height: 10vw;
+    font-size: 3.5vw;
+    margin-top: 1em;
+}
+.footer{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
 }
 
 @media (max-width: 470px) {

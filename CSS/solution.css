@@ -37,7 +37,7 @@ section {
 
 .hero {
   background-color: #cd9757;
-  color: #fff;
+  color: #003249;
 }
 
 .mission {
@@ -109,6 +109,7 @@ section {
 
 .section__img {
   width: 90%;
+  margin-bottom: 2em;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;

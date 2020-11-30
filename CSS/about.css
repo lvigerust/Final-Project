@@ -142,30 +142,8 @@ section {
   font-size: clamp(0.5rem, calc(2.5vw + 0.5rem), 1.2rem);
 }
 
-.section__button {
-  display: inline-block;
-  cursor: pointer;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #000;
-  font-weight: 900;
-  background-color: #ddd;
-  padding: 1.5em 3em;
-  border: 0;
-  border-radius: 5px;
-  -webkit-transition: 150ms ease-in-out;
-  transition: 150ms ease-in-out;
-}
-
-.section__button:hover,
-.section__button :focus {
-  -webkit-transform: scale(1.05);
-  transform: scale(1.05);
-}
-
 .section__img1 {
-  width: 100%;
-  border-radius: 17.5px;
+  width: 90%;
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
@@ -207,10 +185,15 @@ section {
   -ms-flex-align: center;
   align-items: center;
   padding-bottom: 3em;
+  margin-top: -2em;
 }
 
 .column--text {
   max-width: 500px;
+}
+
+.columns h5{
+  font-size: 30px;
 }
 
 .column--img {

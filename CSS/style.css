@@ -95,6 +95,7 @@ section {
 
 .section__img {
   width: 60%;
+  margin-bottom: 2em;
   border-top: 10px solid black;
   border-bottom: 10px solid black;
   border-left: 7.5px solid black;

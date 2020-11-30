@@ -81,9 +81,21 @@ section {
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-color: #3d59ab;
+  background-color: #2e4671;
+  border-radius: 20px;
   padding: 1%;
 }
+
+.col h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.col p, br{
+  font-weight: 200;
+  line-break: auto;
+}
+
 
 .col__footer{
     width: 100%;

@@ -79,6 +79,10 @@ section {
 
 .col {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #3d59ab;
+  padding: 1%;
 }
 
 .col__footer{

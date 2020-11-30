@@ -253,6 +253,11 @@ section {
     height: 60%;
     margin-bottom: 1.5em;
   }
+  .footer-mobile-row{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
 }
 
 @media (max-width: 470px) {

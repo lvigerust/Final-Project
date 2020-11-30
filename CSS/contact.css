@@ -269,9 +269,9 @@ section {
     font-size: 3.5vw;
     margin-top: 1em;
 }
-.footer{
+.footer-mobile-row{
     display: flex;
-    flex-wrap: nowrap;
+    justify-content: space-between;
     flex-direction: column;
 }
 }

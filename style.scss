@@ -68,6 +68,10 @@ section {
     margin: 0;
     margin-bottom: 0.75em;
 
+    &--long {
+      font-size: clamp(1rem, calc(3.5vw + 0.6rem), 2.1rem);
+    }
+
     & span {
       font-weight: 300;
     }

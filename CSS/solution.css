@@ -470,26 +470,4 @@ header {
 .custom-shape-divider-bottom-hero .shape-fill {
   fill: #003249;
 }
-
-.custom-shape-divider-top-1605733026 {
-  position: absolute;
-  top: -3px;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  -webkit-transform: rotateX(180deg);
-  transform: rotateX(180deg);
-}
-
-.custom-shape-divider-top-1605733026 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 100px);
-  height: 25px;
-}
-
-.custom-shape-divider-top-1605733026 .shape-fill {
-  fill: #003249;
-}
 /*# sourceMappingURL=style.css.map */

@@ -64,6 +64,10 @@ section {
   margin-bottom: 0.75em;
 }
 
+.section__title--long {
+  font-size: clamp(1rem, calc(3.5vw + 0.6rem), 2.1rem);
+}
+
 .section__title span {
   font-weight: 300;
 }

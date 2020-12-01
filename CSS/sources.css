@@ -226,6 +226,7 @@ section {
   justify-content: center;
   align-items: center;
   width: 80%;
+  margin: 20px;
 }
 .source__text{
   position: relative;

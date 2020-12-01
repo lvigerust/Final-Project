@@ -129,14 +129,14 @@ section {
 
 .button--1 {
   background-color: transparent;
-  color: #fca311;
-  border: 1.5px solid #fca311;
+  color: #f1c379;
+  border: 1.5px solid #f1c379;
 }
 
 .button--1:hover,
 .button--1 :focus {
-  border: 1.5px solid #fca311;
-  background-color: #fca311;
+  border: 1.5px solid #f1c379;
+  background-color: #f1c379;
   color: #005c7a;
 }
 
@@ -155,14 +155,14 @@ section {
 
 .button--3 {
   background-color: transparent;
-  color: red;
-  border: 1.5px solid red;
+  color: #960808;
+  border: 1.5px solid #960808;
 }
 
 .button--3:hover,
 .button--3 :focus {
-  border: 1.5px solid red;
-  background-color: red;
+  border: 1.5px solid #960808;
+  background-color: #960808;
   color: #80ced7;
 }
 
@@ -362,7 +362,13 @@ header {
 }
 
 .logo {
-  height: 30px;
+  height: 35px;
+}
+
+@media (max-width: 800px) {
+  .logo {
+    width: 129px;
+  }
 }
 
 @media (min-width: 800px) {

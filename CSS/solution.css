@@ -36,8 +36,8 @@ section {
 }
 
 .hero {
-  background-color: #ddbea9;
-  color: #000;
+  background-color: #95d5b2;
+  color: #003249;
 }
 
 .mission {
@@ -219,7 +219,7 @@ section {
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 @media (min-width: 990px) {
@@ -367,10 +367,11 @@ header {
 
 .nav__link--button {
   padding: 0.25em 0.75em;
-  background-color: transparent;
+  background-color: #fff;
   border: 1.5px solid #fff;
-  color: #fff;
+  color: #003249;
   border-radius: 100px;
+  font-weight: bolder;
 }
 
 .nav__link:hover,
@@ -470,4 +471,11 @@ header {
 .custom-shape-divider-bottom-hero .shape-fill {
   fill: #003249;
 }
+
+@media (max-width: 990px) {
+  .column--img {
+    justify-content: center;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

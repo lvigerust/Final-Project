@@ -378,10 +378,11 @@ header {
 
 .nav__link--button {
   padding: 0.25em 0.75em;
-  background-color: transparent;
+  background-color: #fff;
   border: 1.5px solid #fff;
-  color: #fff;
+  color: #003249;
   border-radius: 100px;
+  font-weight: bolder;
 }
 
 .nav__link:hover,
@@ -394,31 +395,31 @@ header {
 }
 
 .section__button {
-    display: inline-block;
-    cursor: pointer;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #000;
-    font-weight: 900;
-    background-color: #ddd;
-    padding: 1.5em 3em;
-    border: 0;
-    border-radius: 5px;
-    -webkit-transition: 150ms ease-in-out;
-    transition: 150ms ease-in-out;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 900;
+  background-color: #ddd;
+  padding: 1.5em 3em;
+  border: 0;
+  border-radius: 5px;
+  -webkit-transition: 150ms ease-in-out;
+  transition: 150ms ease-in-out;
 }
 
 .button--1 {
-    background-color: transparent;
-    color: #003249;
-    border: 1.5px solid #003249;
+  background-color: transparent;
+  color: #003249;
+  border: 1.5px solid #003249;
 }
 
 .button--1:hover,
 .button--1 :focus {
-    border: 1.5px solid #003249;
-    background-color: #003249;
-    color: #ddd;
+  border: 1.5px solid #003249;
+  background-color: #003249;
+  color: #ddd;
 }
 
 @media (min-width: 800px) {

@@ -349,10 +349,11 @@ header {
 
 .nav__link--button {
   padding: 0.25em 0.75em;
-  background-color: transparent;
+  background-color: #fff;
   border: 1.5px solid #fff;
-  color: #fff;
+  color: #003249;
   border-radius: 100px;
+  font-weight: bold;
 }
 
 .nav__link:hover,

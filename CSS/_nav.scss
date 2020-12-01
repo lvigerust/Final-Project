@@ -93,10 +93,11 @@ header {
 
 .nav__link--button {
   padding: 0.25em 0.75em;
-  background-color: transparent;
+  background-color: $headerTextColor;
   border: 1.5px solid $headerTextColor;
-  color: $headerTextColor;
+  color: $headerColor;
   border-radius: 100px;
+  font-weight: bold;
 }
 
 .nav__link:hover,

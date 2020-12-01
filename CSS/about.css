@@ -96,7 +96,6 @@ section {
   line-break: auto;
 }
 
-
 .col__footer{
     width: 100%;
     line-height: 10px;
@@ -104,6 +103,11 @@ section {
 
 .col__footer p{
     font-size: 15px;
+}
+
+.col__footer a{
+  font-size: 15px;
+  color: #003249;
 }
 
 .col__footer h5{

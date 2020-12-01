@@ -127,6 +127,11 @@ section {
     font-size: 15px;
 }
 
+.col__footer a{
+  font-size: 15px;
+  color: #003249;
+}
+
 .col__footer h5{
     font-size: 20px;
 }

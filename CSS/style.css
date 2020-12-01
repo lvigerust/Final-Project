@@ -46,7 +46,7 @@ section {
 }
 
 .mission2 {
-  background-color: #80ced7;
+  background-color: #ffffff;
   color: #003249;
 }
 
@@ -102,6 +102,7 @@ section {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+      margin-bottom: 2em;
 }
 
 .section__img.data {
@@ -155,15 +156,15 @@ section {
 
 .button--3 {
   background-color: transparent;
-  color: red;
-  border: 1.5px solid red;
+  color: darkgreen;
+  border: 1.5px solid darkgreen;
 }
 
 .button--3:hover,
 .button--3 :focus {
-  border: 1.5px solid red;
-  background-color: red;
-  color: #80ced7;
+  border: 1.5px solid darkgreen;
+  background-color: darkgreen;
+  color: #fff;
 }
 
 .columns {
@@ -491,7 +492,7 @@ header {
 }
 
 .custom-shape-divider-bottom-hero .shape-fill {
-  fill: #80ced7;
+  fill: #ffffff;
 }
 
 .custom-shape-divider-bottom-mission .shape-fill {

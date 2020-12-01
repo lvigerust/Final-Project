@@ -34,73 +34,72 @@ section {
   color: #003249;
 }
 /*Contact form*/
-.contactform{
-    margin-top: 2em;
-    -webkit-background-clip: text;
-    font-style: normal;
-    text-align: center;
-    height: auto;
-    font-size: 18px;
+.contactform {
+  margin-top: 2em;
+  -webkit-background-clip: text;
+  font-style: normal;
+  text-align: center;
+  height: auto;
+  font-size: 18px;
 }
-#email{
-    width: 70%;
-    height: 2.3vw;
-    border-radius: 5px/5px;
-    font-weight: 600;
-    margin: 1%;
-    border: 1px solid #003249;
-    letter-spacing: 1px;
-    background-color: rgba(255, 255, 255, 0.879);
-
+#email {
+  width: 70%;
+  height: 2.3vw;
+  border-radius: 5px/5px;
+  font-weight: 600;
+  margin: 1%;
+  border: 1px solid #003249;
+  letter-spacing: 1px;
+  background-color: rgba(255, 255, 255, 0.879);
 }
-#name{
-    width: 70%;
-    height: 2.3vw;
-    font-weight: 600;
-    border-radius: 5px/5px;
-    margin: 1%;
-    border: 1px solid #003249;
-    letter-spacing: 1px;
-    background-color: rgba(255, 255, 255, 0.879);
+#name {
+  width: 70%;
+  height: 2.3vw;
+  font-weight: 600;
+  border-radius: 5px/5px;
+  margin: 1%;
+  border: 1px solid #003249;
+  letter-spacing: 1px;
+  background-color: rgba(255, 255, 255, 0.879);
 }
-#subject{
-    width: 70%;
-    height: 2.3vw;
-    font-weight: 600;
-    border-radius: 5px/5px;
-    margin: 1%;
-    border: 1px solid #003249;
-    letter-spacing: 1px;
-    background-color: rgba(255, 255, 255, 0.879);
+#subject {
+  width: 70%;
+  height: 2.3vw;
+  font-weight: 600;
+  border-radius: 5px/5px;
+  margin: 1%;
+  border: 1px solid #003249;
+  letter-spacing: 1px;
+  background-color: rgba(255, 255, 255, 0.879);
 }
-#enquiry{
-    width: 70%;
-    height: 10vw;
-    font-weight: 600;
-    border-radius: 5px/5px;
-    padding: 0.4%;
-    margin: 1%;
-    border: 1px solid #003249;
-    letter-spacing: 1px;
-    background-color: rgba(255, 255, 255, 0.879);
+#enquiry {
+  width: 70%;
+  height: 10vw;
+  font-weight: 600;
+  border-radius: 5px/5px;
+  padding: 0.4%;
+  margin: 1%;
+  border: 1px solid #003249;
+  letter-spacing: 1px;
+  background-color: rgba(255, 255, 255, 0.879);
 }
-#send{
-    width: 30%;
-    height: 3vw;
-    font-weight: 300;
-    font-size: 20px;
-    border-radius: 5px/5px;
-    border: 1px solid #003249;
-    padding: 0.4%;
-    letter-spacing: 1px;
-    background-color :#003249;
-    color: rgba(255, 255, 255, 0.879);
-    cursor: pointer;
+#send {
+  width: 30%;
+  height: 3vw;
+  font-weight: 300;
+  font-size: 20px;
+  border-radius: 5px/5px;
+  border: 1px solid #003249;
+  padding: 0.4%;
+  letter-spacing: 1px;
+  background-color: #003249;
+  color: rgba(255, 255, 255, 0.879);
+  cursor: pointer;
 }
-.contentsection #more{
-    -webkit-background-clip: text;
-    text-align: center;
-    padding: 5%;
+.contentsection #more {
+  -webkit-background-clip: text;
+  text-align: center;
+  padding: 5%;
 }
 
 .footer {
@@ -114,32 +113,32 @@ section {
   width: 100%;
 }
 
-.col__footer{
-    width: 100%;
-    line-height: 10px;
+.col__footer {
+  width: 100%;
+  line-height: 10px;
 }
 
-.col__footer p{
-    font-size: 15px;
+.col__footer p {
+  font-size: 15px;
 }
 
-.col__footer a{
+.col__footer a {
   font-size: 15px;
   color: #003249;
 }
 
-.col__footer h5{
-    font-size: 20px;
+.col__footer h5 {
+  font-size: 20px;
 }
 
-.footer__threecol{
-    width: 80%;
-    max-width: 1200px;
-    margin: 0 auto;
+.footer__threecol {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
-.footer-mobile-row{
-    display: flex;
-    justify-content: space-between;
+.footer-mobile-row {
+  display: flex;
+  justify-content: space-between;
 }
 
 .section__description {
@@ -160,11 +159,9 @@ section {
   font-weight: 300;
 }
 
-
 .section__text {
   font-size: clamp(0.5rem, calc(2.5vw + 0.5rem), 1.2rem);
 }
-
 
 .section__img1 {
   width: 100%;
@@ -173,7 +170,6 @@ section {
   -ms-grid-row-align: center;
   align-self: center;
 }
-
 
 .section__benefits {
   padding: 0;
@@ -209,8 +205,8 @@ section {
   max-width: 500px;
 }
 
-.column--form{
-    max-width: 500px;
+.column--form {
+  max-width: 500px;
 }
 @media (min-width: 990px) {
   .columns {
@@ -252,33 +248,33 @@ section {
     height: 60%;
     margin-bottom: 1.5em;
   }
-  #name{
+  #name {
     width: 50vw;
     height: 5vh;
-}
-#email{
+  }
+  #email {
     width: 50vw;
     height: 5vh;
-}
-#subject{
+  }
+  #subject {
     width: 50vw;
     height: 5vh;
-}
-#enquiry{
+  }
+  #enquiry {
     width: 50vw;
     height: 20vh;
-}
-#send{
+  }
+  #send {
     width: 50vw;
     height: 10vw;
     font-size: 3.5vw;
     margin-top: 1em;
-}
-.footer-mobile-row{
+  }
+  .footer-mobile-row {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-}
+  }
 }
 
 @media (max-width: 470px) {

@@ -391,7 +391,13 @@ header {
 }
 
 .logo {
-  height: 30px;
+  height: 35px;
+}
+
+@media (max-width: 800px) {
+  .logo {
+    width: 129px;
+  }
 }
 
 .section__button {

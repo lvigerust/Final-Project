@@ -172,3 +172,11 @@ header {
   display: flex;
   justify-content: space-between;
 }
+
+@media (max-width: 990px) {
+  .footer-mobile-row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}

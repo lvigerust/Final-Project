@@ -32,7 +32,11 @@ section {
 .hero {
   background-color: #ccdbdc;
   color: #003249;
+  display: flex;
+  align-items: center;
+  height: 60vh;
 }
+
 /*Contact form*/
 .contactform {
   margin-top: 2em;
@@ -200,7 +204,6 @@ section {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-bottom: 3em;
 }
 
 .column--text {
@@ -381,7 +384,7 @@ header {
 .nav__link--button {
   padding: 0.25em 0.75em;
   background-color: #fff;
-  border: 1.5px solid #fff;
+  border: 1.5px solid rgb(107, 40, 40);
   color: #003249;
   border-radius: 100px;
   font-weight: bolder;

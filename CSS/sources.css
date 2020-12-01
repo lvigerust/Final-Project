@@ -251,6 +251,9 @@ section {
     height: 60%;
     margin-bottom: 1.5em;
   }
+  p{
+		 word-wrap: break-word;
+	}
   #name{
     width: 50vw;
     height: 5vh;

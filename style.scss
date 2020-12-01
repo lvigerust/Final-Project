@@ -96,18 +96,7 @@ section {
   }
   &__img {
     width: 60%;
-    border-top: 10px solid black;
-    border-bottom: 10px solid black;
-    border-left: 7.5px solid black;
-    border-right: 7.5px solid black;
-    border-radius: 17.5px;
     align-self: center;
-
-    &.hero {
-      border: 0;
-      border-radius: 0;
-      width: 60%;
-    }
 
     &.data {
       border: 0;
@@ -116,7 +105,7 @@ section {
     }
 
     &--single {
-      width: 40%;
+      width: 43%;
     }
   }
 }
@@ -188,7 +177,11 @@ section {
 
   &--img {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+
+    &--inverted {
+      justify-content: center;
+    }
   }
 }
 

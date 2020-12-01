@@ -155,10 +155,7 @@ section {
   color: #005c7a;
 }
 
-.button--1 a{
-    text-decoration: none;
-    color:#fca311;
-}
+
 
 
 .button--2 {
@@ -187,10 +184,7 @@ section {
   color: #ccdbdc;
 }
 
-.button--3 a{
-    text-decoration: none;
-    color:#005c7a;
-}
+
 
 .columns {
   display: -webkit-box;

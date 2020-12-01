@@ -216,6 +216,36 @@ section {
 .column--form{
     max-width: 500px;
 }
+
+.source__rows{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.source__text{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: auto;
+  background-color:#ccdbdc;
+  text-align: center;
+  margin: 20px;
+}
+
+.source--title{
+font-size: 30px;
+font-weight: 600;
+line-height: 48px;
+text-align: center;
+background-color: #ccdbdc;
+color: #003249;
+margin-bottom: -3em;
+}
+
 @media (min-width: 990px) {
   .columns {
     -webkit-box-orient: horizontal;

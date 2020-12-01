@@ -281,38 +281,14 @@ margin-bottom: -3em;
   .container {
     width: 70%;
   }
-  .section__img {
-    width: 60%;
-    height: 60%;
-    margin-bottom: 1.5em;
+  .source__text{
+    font-size: 12px;
   }
-  #name{
-    width: 50vw;
-    height: 5vh;
-}
-#email{
-    width: 50vw;
-    height: 5vh;
-}
-#subject{
-    width: 50vw;
-    height: 5vh;
-}
-#enquiry{
-    width: 50vw;
-    height: 20vh;
-}
-#send{
-    width: 50vw;
-    height: 10vw;
-    font-size: 3.5vw;
-    margin-top: 1em;
-}
 .footer-mobile-row{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-	}
+  }
 }
 
 @media (max-width: 470px) {

@@ -280,13 +280,16 @@ section {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-}
+	}
 }
 
 @media (max-width: 470px) {
   section {
     padding: 3em 0;
   }
+  p{
+		 word-wrap: break-word;
+	}
 }
 
 header {

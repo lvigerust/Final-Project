@@ -34,6 +34,7 @@ section {
   color: #003249;
 }
 .mission {
+<<<<<<< Updated upstream
   background-color: #ccdbdc;
   color: #003249;
 }
@@ -105,6 +106,11 @@ section {
   text-align: center;
   padding: 5%;
 }
+=======
+    background-color: #ccdbdc;
+    color: #003249;
+  }
+>>>>>>> Stashed changes
 
 .footer {
   background-color: #fff;
@@ -221,6 +227,10 @@ section {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+<<<<<<< Updated upstream
+=======
+  margin-top: -2em;
+>>>>>>> Stashed changes
 }
 .source__text {
   position: relative;
@@ -235,6 +245,7 @@ section {
   margin: 20px;
 }
 
+<<<<<<< Updated upstream
 .source--title {
   font-size: 30px;
   font-weight: 600;
@@ -242,6 +253,19 @@ section {
   text-align: center;
   background-color: #ccdbdc;
   color: #003249;
+=======
+.source__text a{
+  color: #003249;
+}
+
+.source--title{
+font-size: 30px;
+font-weight: 600;
+line-height: 48px;
+text-align: center;
+background-color: #ccdbdc;
+color: #003249;
+>>>>>>> Stashed changes
 }
 
 @media (min-width: 990px) {
@@ -282,10 +306,17 @@ section {
   .source__text {
     font-size: 12px;
   }
+<<<<<<< Updated upstream
   .footer-mobile-row {
+=======
+  .footer-mobile-row{
+>>>>>>> Stashed changes
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+  }
+  .source--title{
+    margin-top: 10px;
   }
 }
 
@@ -480,29 +511,4 @@ header {
   fill: #ccdbdc;
 }
 
-.custom-shape-divider-bottom-1605731701 .shape-fill {
-  fill: rgb(118, 216, 141);
-}
-
-.custom-shape-divider-top-1605733026 {
-  position: absolute;
-  top: -3px;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  -webkit-transform: rotateX(180deg);
-  transform: rotateX(180deg);
-}
-
-.custom-shape-divider-top-1605733026 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 100px);
-  height: 25px;
-}
-
-.custom-shape-divider-top-1605733026 .shape-fill {
-  fill: #003249;
-}
 /*# sourceMappingURL=style.css.map */
